@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+
+.resume {
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    background: white;
+    min-height: 200px;
+}
+
+
+.left {
+    width: 35%;
+    background: #e5e5e5;
+    position: relative;
+}
+
+
+.high {
+    background: #2f2f33;
+    color: white;
+    padding: 30px 20px 90px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    text-align: center;
+}
+
+.high h2 {
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.title {
+    font-size: 12px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+
+.photo {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    margin: 30px auto 0;
+    padding: 7px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.contact {
+    padding: 30px 25px;
+    font-size: 14px;
+}
+
+.contact p {
+    margin: 12px 0;
+}
+
+
+.down {
+    background: #2f2f33;
+    color: white;
+    padding: 50px 25px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    margin-top: 40px;
+}
+
+.down h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.educ {
+    margin-bottom: 25px;
+}
+
+.educ p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.educ span {
+    font-size: 12px;
+    color: #ccc;
+}
+
+
+.right {
+    width: 65%;
+    padding: 40px 35px;
+}
+
+.right section {
+    margin-bottom: 35px;
+}
+
+.right h2 {
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+
+.work {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: 2px solid black;
+}
+
+.work span {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.skill-name {
+    width: 150px;
+    font-size: 14px;
+}
+
+.skill-bar {
+    flex: 1;
+    height: 8px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.skill-fill {
+    height: 100%;
+    background: #333;
+    border-radius: 10px;
+}
+
+.skill-percent {
+    width: 40px;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+.expertise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    list-style: none;
+    margin-top: 10px;
+}
